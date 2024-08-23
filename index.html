@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Rinterio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              'rinterio-btn-primary': '#ABEF5F',
+              'rinterio-btn-secondary': '#ABEF5F80',
+              'rinterio-header-primary': 'rgb(33, 33, 33)',
+              'rinterio-pera-primary': 'rgb(73, 73, 73)',
+              'rinterio-pera-secondary': 'rgb(115, 115, 115)',
+              'rinterio-bg-primary': 'rgb(30, 30, 30)',
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body>
+    <header class="container mx-auto px-4 md:px-20 mb-16">
+        <nav class="">
+            <div class="navbar">
+                <div class="navbar-start flex items-center space-x-1">
+                  <i class="fa-solid fa-arrow-right bg-rinterio-btn-primary w-6 h-6 rounded-full flex justify-center items-center text-black -rotate-45 "></i>
+                  <a class="font-bold text-xl">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end gap-5">
+                  <div class="hidden md:flex justify-center items-center gap-3">
+                    <a href=""><i class="fa-solid fa-magnifying-glass bg"></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a class="btn bg-rinterio-btn-primary rounded-full">Book Consult <i class="fa-solid fa-arrow-right bg-black w-8 h-8 rounded-full flex justify-center items-center text-white -rotate-45 "></i></a>
+                  </div>
+                  <div class="md:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                  </div>
+                </div>
+              </div>
+        </nav>
+
+        <!-- hero section -->
+        <div class="">
+          <div class="flex justify-center items-center">
+            <img src="./assets/banner.png" alt="">
+          </div>
+          <div class="space-y-5">
+            <h2 class="text-rinterio-header-primary font-bold text-4xl w-full mx-auto text-center lg:text-6xl lg:w-4/5">A barn house of this design has a <br> striking appearance</h2>
+            <p class="text-rinterio-pera-primary w-full mx-auto text-center lg:w-3/5">
+              The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+            </p>
+            <button class="btn w-full bg-rinterio-btn-secondary rounded-full mx-auto lg:w-auto lg:flex lg:justify-center lg:items-center"> View Details <i class="fa-solid fa-arrow-right bg-rinterio-btn-primary w-8 h-8 rounded-full flex justify-center items-center text-black -rotate-45 "></i></button>
+          </div>
+        </div>
+    </header>
+
+    
+
+    <footer>
+        
+    </footer>
+</body>
+</html>
