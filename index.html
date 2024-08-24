@@ -25,6 +25,7 @@
               'card-03': 'rgb(164, 218, 195)',
               'card-04': 'rgb(119, 170, 234)',
               'footer-bg': 'rgb(28, 28, 28)',
+              'footer-link': 'rgb(233, 233, 233)',
             }
           }
         }
@@ -77,7 +78,7 @@
     </header>
 
     <main class="">
-        <div class="bg-gray-100 sm:pt-10 sm:pb-10 lg:pt-24 lg:pb-24 mb-16">
+        <div class="bg-gray-100 sm:pt-10 sm:pb-10 lg:pt-24 lg:pb-24 mb-1">
           <!-- We design Thoughtful -->
           <div class="container mx-auto px-4 md:px-20 lg:flex pb-16 md:pb-32">
             <div class="relative space-y-4">
@@ -97,7 +98,7 @@
                   The barn house captivates with its blend of rustic charm and <br> 
                   modern sophistication, featuring weathered wood, sleek metal accents.
                 </p>
-                <div class="bg-white w-full flex justify-center md:inline-flex items-start space-x-5 pl-4 pr-16 py-4 rounded-2xl">
+                <div class="bg-white flex justify-center md:inline-flex items-start space-x-5 pl-4 pr-16 py-4 rounded-2xl">
                   <img src="./assets/commercial.png" alt="">
                   <div>
                     <h6 class="font-semibold">Commercial</h6>
@@ -181,7 +182,7 @@
         </div>
 
         <!-- let's connect -->
-        <div class="bg-[url('./assets/bg.jpg')] bg-cover mb-5">
+        <div class="bg-[url('./assets/bg.jpg')] bg-cover mb-1 pb-16">
           <div class="container mx-auto px-4 md:px-20">
             <!-- let's discuss title -->
             <div class="pt-16 pb-16 mx-auto text-center">
@@ -206,14 +207,34 @@
               <textarea class="textarea textarea-lg h-40	w-full max-w-full textarea-bordered" placeholder="Write your message here"></textarea>
               
               <!-- <button>Send Mail</button> -->
-              <button class="btn bg-rinterio-btn-primary w-full font-bold rounded-full"> Send Mail <i class="fa-solid fa-arrow-right bg-black w-8 h-8 rounded-full flex justify-center items-center text-white -rotate-45 "></i></button>
+              <button class="btn bg-rinterio-btn-primary w-full border-none font-bold rounded-full"> Send Mail <i class="fa-solid fa-arrow-right bg-black w-8 h-8 rounded-full flex justify-center items-center text-white -rotate-45 "></i></button>
             </div>
           </div>
         </div>
     </main>
 
-    <footer class="bg-footer-bg h-60">
-        
+    <footer class="bg-footer-bg pt-16 pb-16 space-y-6">
+      <div class="flex justify-center items-center">
+        <i class="fa-solid fa-arrow-right bg-rinterio-btn-primary w-6 h-6 rounded-full flex justify-center items-center text-black -rotate-45 "></i>
+      <a class="font-bold text-xl text-white">Rinterio</a>
+      </div>
+      <p class="text-rinterio-pera-secondary w-1/2 mx-auto text-center">
+        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+      </p>
+      <div>
+        <ul class="text-footer-link text-center space-y-3 lg:flex lg:justify-center lg:gap-32">
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Blogs</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="flex justify-center">
+        <button class="btn bg-rinterio-btn-primary border-none font-bold rounded-full"> 
+          Book Consult <i class="fa-solid fa-arrow-right bg-black w-8 h-8 rounded-full flex justify-center items-center text-white -rotate-45"></i>
+        </button>
+      </div>
     </footer>
 </body>
 </html>
