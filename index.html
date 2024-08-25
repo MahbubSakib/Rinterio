@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Rinterio</title>
@@ -32,10 +35,16 @@
         }
       }
     </script>
+
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
 </head>
-<body>
+<body class="font-manrope">
     <header class="bg-gradient-to-b from-gray-100 to-white">
-        <nav class="container mx-auto px-4 md:px-20 mb-16 ">
+        <nav class="container mx-auto px-4 md:px-20 mb-16">
             <div class="navbar">
                 <div class="navbar-start flex items-center space-x-1">
                   <i class="fa-solid fa-arrow-right bg-rinterio-btn-primary w-6 h-6 rounded-full flex justify-center items-center text-black -rotate-45 "></i>
@@ -64,7 +73,7 @@
         </nav>
 
         <!-- hero section -->
-        <div class="container mx-auto px-4 md:px-20 mb-16 ">
+        <div class="container mx-auto px-4 md:px-20">
           <div class="flex justify-center items-center">
             <img src="./assets/banner.png" alt="">
           </div>
@@ -78,7 +87,7 @@
         </div>
     </header>
 
-    <main class="">
+    <main class="mt-10">
         <div class="bg-gray-100 sm:pt-10 sm:pb-10 lg:pt-24 lg:pb-24 mb-1">
           <!-- We design Thoughtful -->
           <div class="container mx-auto pt-6 px-4 md:px-20 lg:flex pb-16 md:pb-32">
@@ -398,7 +407,7 @@
         The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
       </p>
       <div>
-        <ul class="text-footer-link text-center space-y-3 lg:flex lg:justify-center lg:gap-32">
+        <ul class="text-footer-link text-center lg:flex lg:justify-center gap-32 space-y-5 lg:space-y-0">
           <li><a href="">Home</a></li>
           <li><a href="">Services</a></li>
           <li><a href="">Portfolio</a></li>
