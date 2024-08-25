@@ -184,7 +184,7 @@
 
 
         <!-- our latest portfolio -->
-        <div>
+        <div class="mb-10">
           <div class="container mx-auto px-4 md:px-20">
             <!-- let's discuss title -->
             <div class="pt-16 pb-16 mx-auto text-center space-y-3">
@@ -199,13 +199,157 @@
               </p>
             </div>
             <!-- let's discuss grid image -->
-            <!-- first row -->
-            <div>
+            <div class="grid grid-cols-1 lg:grid-cols-5 lg:grid-rows-2 gap-4 mx-auto">
+              <!-- first row -->
+              <!-- image 01 -->
+              <div class="grid col-span-1 lg:col-span-3">
+                <div class="lg:flex border-2 border-gray-100 rounded-xl p-5 gap-5">
+                  <img class="object-contain w-full" src="./assets/img1.png" alt="">
+                  <div class="space-y-5">
+                    <h5 class="mt-3 text-rinterio-pera-primary text-xl font-bold">
+                      Commercial
+                    </h5>  
+                    <p class="text-rinterio-pera-secondary">
+                      The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+                    <button class="font-bold flex justify-center items-center gap-2"> View Details <i class="fa-solid fa-arrow-right bg-rinterio-btn-primary w-8 h-8 rounded-full flex justify-center items-center text-black -rotate-45 "></i></button>
+                  </div>
+                </div>
+              </div>
+              <!-- image 02 -->
+              <div class="grid col-span-1 lg:col-span-2 border-2 border-gray-100 rounded-xl p-5">
+                <img class="object-contain m-auto w-full" src="./assets/img2.png" alt="">
+              </div>
               
-            </div>
-            <!-- second row -->
-            <div>
+              <!-- SECOND ROW -->
+              <!-- image 03 -->
+              <div class="grid col-span-1 lg:col-span-1 border-2 border-gray-100 rounded-xl p-5">
+                <img class="object-contain w-full" src="./assets/img3.png" alt="">
+              </div>
+              <!-- image 04 -->
+              <div class="grid col-span-1 lg:col-span-3">
+                <div class="lg:flex border-2 border-gray-100 rounded-xl p-5 gap-5">
+                  <img class="object-contain w-full" src="./assets/img4.png" alt="">
+                  <div class="space-y-5">
+                    <h5 class="mt-3 text-rinterio-pera-primary text-xl font-bold">
+                      Commercial
+                    </h5>  
+                    <p class="text-rinterio-pera-secondary">
+                      The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+                    <button class="font-bold flex justify-center items-center gap-2"> View Details <i class="fa-solid fa-arrow-right bg-rinterio-btn-primary w-8 h-8 rounded-full flex justify-center items-center text-black -rotate-45 "></i></button>
+                  </div>
+                </div>
+              </div>
+              <!-- image 05 -->
+              <div class="grid col-span-1 lg:col-span-1 border-2 border-gray-100 rounded-xl p-5">
+                <img class="object-contain w-full" src="./assets/img5.png" alt="">
+              </div>
+              <!-- image 06 in mobile device only -->
+              <div class="grid col-span-1 lg:hidden border-2 border-gray-100 rounded-xl p-5">
+                <img class="object-contain w-full" src="./assets/img3.png" alt="">
+              </div>
+            </div>            
+          </div>
+        </div>
 
+        <!-- client testimonials -->
+        <div class="container mx-auto px-4 md:px-20 mb-5">
+          <!-- client testimonials title -->
+          <div class="space-y-4 mx-auto text-center">
+            <h6 class="bg-[#26c0ce] inline-block px-4 py-2 rounded-full font-semibold">
+              <i class="fa-solid fa-arrow-right"></i> Client Testimonials
+            </h6>
+            <h3 class="text-rinterio-header-primary font-bold text-3xl lg:text-5xl">Hear From Our Clients</h3>
+            <p class="rinterio-pera-primary">
+              The experiences of our satisfied clients, showcasing the quality and impact of our architectural design.
+            </p>
+          </div>
+          <!-- client testimonials card -->
+          <div class="lg:flex gap-8">
+            <!-- card 01 -->
+            <div class="text-center bg:w-3/12 bg-gradient-to-r from-sky-200 to-sky-100 p-6 rounded-2xl space-y-3 mt-8">
+              <div class="avatar">
+                <div class="flex justify-center items-center ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                  <img src="./assets/man.png" />
+                </div>
+              </div>
+              <h5 class="font-bold">
+                John Mitchell
+              </h5>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <p class="rinterio-pera-primary">
+                Working with this team was a game-changer. They turned our vision into reality with impeccable attention to detail.
+              </p>
+            </div>
+            <!-- card 02 -->
+            <div class="text-center bg:w-3/12 bg-gradient-to-r from-red-200 to-red-100 p-6 rounded-2xl space-y-3 mt-8">
+              <div class="avatar">
+                <div class="flex justify-center items-center ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                  <img src="./assets/man.png" />
+                </div>
+              </div>
+              <h5 class="font-bold">
+                Emily Rivera
+              </h5>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <p class="rinterio-pera-primary">
+                Their creativity and professionalism exceeded our expectations. Our new space is both functional and stunning.
+              </p>
+            </div>
+            <!-- card 03 -->
+            <div class="text-center bg:w-3/12 bg-gradient-to-r from-orange-200 to-orange-100 p-6 rounded-2xl space-y-3 mt-8">
+              <div class="avatar">
+                <div class="flex justify-center items-center ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                  <img src="./assets/man.png" />
+                </div>
+              </div>
+              <h5 class="font-bold">
+                David Thompson
+              </h5>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <p class="rinterio-pera-primary">
+                From concept to completion, their expertise shone through. We couldn't be happier with the final result.
+              </p>
+            </div>
+            <!-- card 04 -->
+            <div class="text-center bg:w-3/12 bg-gradient-to-r from-amber-200 to-amber-100 p-6 rounded-2xl space-y-3 mt-8">
+              <div class="avatar">
+                <div class="flex justify-center items-center ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                  <img src="./assets/man.png" />
+                </div>
+              </div>
+              <h5 class="font-bold">
+                Samantha Lee
+              </h5>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <p class="rinterio-pera-primary">
+                The design process was seamless, and the outcome is simply breathtaking. A truly talented and dedicated team.
+              </p>
             </div>
           </div>
         </div>
